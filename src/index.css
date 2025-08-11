@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-dark text-brand-light font-sans;
+}
+
+.animation-canvas {
+    @apply fixed top-0 left-0 w-full h-screen z-0;
+}
+
+.content-container {
+    @apply relative z-10;
+}
